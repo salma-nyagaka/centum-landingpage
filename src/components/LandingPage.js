@@ -16,7 +16,7 @@ const LandingPage = () => {
 
             <header>
                 <div class="navbar">
-                    <img src={logo} class="logo" />
+                    <img src={logo} class="logo" alt="logo" />
                     <a href="#contact">Login</a>
                     <a href="#contact">Contact</a>
                     <a href="#news">Investors</a>
@@ -160,9 +160,9 @@ const LandingPage = () => {
                     </div>
                     <div class="column" >
                         <h4>CONNECT WITH US</h4>
-                        <h3>Twitter<span><img src={twitter} class="social-icons" /></span></h3>
-                        <h3>Linked In<span><img src={linkedin} class="social-icons" /></span></h3>
-                        <h3>Facebook<span><img src={facebook} class="social-icons" /></span></h3>
+                        <h3>Twitter<span><img src={twitter} class="social-icons" alt="twitter"/></span></h3>
+                        <h3>Linked In<span><img src={linkedin} class="social-icons" alt="linkedin"/></span></h3>
+                        <h3>Facebook<span><img src={facebook} class="social-icons" alt="facebook"/></span></h3>
 
                     </div>
                 </div>
