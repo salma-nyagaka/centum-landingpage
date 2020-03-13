@@ -20,8 +20,8 @@ const MessageForm = () => {
 
 
                     <div class="clearfix">
-      <button type="submit" class="connectbtn">SUBMIT</button>
-  </div>
+                        <button type="submit" class="connectbtn">SUBMIT</button>
+                    </div>
                 </div>
             </form>
         </div>

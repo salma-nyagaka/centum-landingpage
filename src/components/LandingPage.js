@@ -10,7 +10,6 @@ import work3 from '../assets/images/work3.svg';
 import MessageForm from '../components/MessageForm';
 import CountUp from 'react-countup';
 
-
 const LandingPage = () => {
     return (
         <div>
@@ -21,7 +20,6 @@ const LandingPage = () => {
                     <a href="#news">Investors</a>
                     <a href="#home">Home</a>
                 </div>
-
                 <div class="container">
                     <div class="header-content">
                         <div class="row">
@@ -32,16 +30,12 @@ const LandingPage = () => {
                                 <h2>Centum is East Africa's leading investment company <br />listed
                     on the Nairobi Securities Exchange and Uganda Securities
                     Exchange.</h2>
-
-
                             </div>
-
                         </div>
                     </div>
                 </div>
                 <div id="count" className="hidden-xs">
                     <ul>
-
                         <li className="number-list"><span className="number"><CountUp start={0} end={10000} /></span>Members</li>
                         <li className="number-list"><span className="number"><CountUp start={0} end={53} /></span>Years in the market</li>
                         <li className="number-list"><span className="number"><CountUp start={0} end={5350} /></span>People Served</li>
@@ -49,17 +43,10 @@ const LandingPage = () => {
                 </div>
             </header>
             <h2 className="work">About Us</h2>
-            {/* <div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
- 
-</div> */}
             <div class="cards-list">
 
                 <div class="card 1">
                     <div class="card_image">
-                        {/* <div class="card_image"> <img src={card} /> </div> */}
                     </div>
                     <div class="card_title title-white">
                         <h4><b>Mission</b></h4>
@@ -69,7 +56,6 @@ const LandingPage = () => {
 
                 <div class="card 2">
                     <div class="card_image">
-                        {/* <div class="card_image"> <img src={card} /> </div> */}
                     </div>
                     <div class="card_title title-white">
                         <h4><b>Vision</b></h4>
@@ -91,9 +77,6 @@ const LandingPage = () => {
                         <p>We invest responsibly</p>
                     </div>
                 </div>
-
-
-
             </div>
 
             <section className="parallax-window" data-parallax="scroll" data-natural-width="1200" data-natural-height="600">
