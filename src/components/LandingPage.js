@@ -9,7 +9,6 @@ import work2 from '../assets/images/work2.svg';
 import work3 from '../assets/images/work3.svg';
 import MessageForm from '../components/MessageForm';
 import logo from '../assets/images/logo.jpeg'
-import CountUp from 'react-countup';
 
 
 const LandingPage = () => {
@@ -40,9 +39,9 @@ const LandingPage = () => {
                 </div>
                 <div id="count" className="hidden-xs">
                     <ul>
-                        <li className="number-list"><span className="number"><CountUp start={0} end={10000} /></span>Members</li>
-                        <li className="number-list"><span className="number"><CountUp start={0} end={53} /></span>Years in the market</li>
-                        <li className="number-list"><span className="number"><CountUp start={0} end={5350} /></span>People Served</li>
+                        <li className="number-list"><span className="number">10000</span>Members</li>
+                        <li className="number-list"><span className="number">53</span>Years in the market</li>
+                        <li className="number-list"><span className="number">5350 </span>People Served</li>
                     </ul>
                 </div>
             </header>
