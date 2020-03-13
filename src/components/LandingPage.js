@@ -8,7 +8,7 @@ import work from '../assets/images/work.svg';
 import work2 from '../assets/images/work2.svg';
 import work3 from '../assets/images/work3.svg';
 import MessageForm from '../components/MessageForm';
-import CountUp from 'react-countup';
+import logo from '../assets/images/logo.jpeg'
 
 const LandingPage = () => {
     return (
@@ -16,6 +16,8 @@ const LandingPage = () => {
 
             <header>
                 <div class="navbar">
+                    <img src={logo} class="logo" />
+                    <a href="#contact">Login</a>
                     <a href="#contact">Contact</a>
                     <a href="#news">Investors</a>
                     <a href="#home">Home</a>
@@ -36,9 +38,9 @@ const LandingPage = () => {
                 </div>
                 <div id="count" className="hidden-xs">
                     <ul>
-                        <li className="number-list"><span className="number"><CountUp start={0} end={10000} /></span>Members</li>
-                        <li className="number-list"><span className="number"><CountUp start={0} end={53} /></span>Years in the market</li>
-                        <li className="number-list"><span className="number"><CountUp start={0} end={5350} /></span>People Served</li>
+                        <li className="number-list"><span className="number">10000</span>Members</li>
+                        <li className="number-list"><span className="number">53</span>Years in the market</li>
+                        <li className="number-list"><span className="number">5350 </span>People Served</li>
                     </ul>
                 </div>
             </header>
@@ -78,41 +80,66 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
+            {/* <div class="container">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div> */}
+
 
             <section className="parallax-window" data-parallax="scroll" data-natural-width="1200" data-natural-height="600">
                 <div className="parallax-content">
                     <div className="sub_content">
-                        <h3>The leading investment company</h3>
-                        <p>
-                            Offering 24 hour support
-                        </p>
+            <h2 className="work">oUR Business</h2>
+                        <div class="grid-container">
+                            <div class="grid-item">Agribusiness sector
+                            {/* <div class="overlay"> */}
+                                    {/* <div class="text">
+                                        <p>Integration: We want to tap into the entire value chain so as to capture a large proportion of the value of the end product</p>
+
+                                        <p>Scale: We will focus on scalable opportunities that leverage our strengths</p>
+
+                                        <p>Focus: Concentrate on opportunities where high value can be unlocked</p>
+
+                                        <p>Market attractiveness: Capitalize on areas that will allow us to serve an under-served market</p>
+
+                                        Expertise: We will acquire and build expertise to streamline implementation of our strategy</div> */}
+                                {/* </div> */}
+
+
+                            </div>
+                            <div class="grid-item">Financial Services Sector</div>
+                            <div class="grid-item">Power sector</div>
+                            <div class="grid-item">Education sector</div>
+                            <div class="grid-item">Consumer sector</div>
+                            <div class="grid-item">Real estate sector</div>
+                        </div>
                     </div>
                 </div>
             </section>
             {/* </div> */}
-            <h2 className="work">Our work</h2>
+            <h2 className="work">Service entities</h2>
 
             <div class="work-row">
                 <div class="column work-column" id="work-column" >
                     <img src={work} className='work' alt='work' />
-                    <h3 className="work-description">Our objective within the Real Estate sector is to develop
-                        new urban nodes across the East African region that
-      represent investment grade assets of scale.</h3>
+                    <h3 className="work-description">Nabo's vision is to be the  leading  truly  African 
+                    investment solutions provider  in scale,  innovation and profitability. </h3>
 
                 </div>
                 <div class="column  work-column" >
                     <img src={work3} className='work' alt='work' />
-                    <h3 className="work-description">We have the Agribusiness sector that concentrates on opportunities where high value can be unlocked
-  and capitalize on areas that will allow us to serve an under-served market and a Power sector called Amu Power Limited  which is a Centum Investment-Gulf Energy
-  consortium whose vision is to anchor long term national economic growth and aspirations by provision of reliable, safe and affordable power. </h3>
+                    <h3 className="work-description">Athena Properties limited is a wholly owned subsidiary of Centum. We offer clients a comprehensive solution for mixed use property developments, from local urban 
+                    nodes to large scale new city development throughout sub-Saharan Africa.</h3>
 
                 </div>
                 <div class="column  work-column" >
                     <img src={work2} className='work' alt='work' />
-                    <h3 className="work-description"> The principal objective is to acquire a diversified portfolio of growth capital and change of control
-      investments in mid-sized companies primarily operating in growth markets across East Africa.</h3>
+                    <h3 className="work-description"> At Centum Business Solutions, we employ our resources to assist the other business lines achieve their strategies in the most efficient manner while keeping in line wit
+                    strategy of delivering value to our clients and shareholders.</h3>
 
                 </div>
+                
             </div>
 
             <div class="footer">

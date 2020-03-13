@@ -1,8 +1,11 @@
 {
-  "homepage": "https://salma-nyagaka.github.io/centum-landingpage/",
   "name": "website",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.12.0",
+    "npm": "6.11.3"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
