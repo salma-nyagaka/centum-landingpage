@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-## `npm install`
+##### `npm install`
 
 Then run the command below to start the server
 
@@ -11,6 +11,6 @@ Then run the command below to start the server
 
 
 
-## Project description
+###### Project description
 
 Sample landing page for Centum
