@@ -1,4 +1,4 @@
-## Available Scripts
+## AVAILABLE SCRIPTS
 
 In the project directory, you can run:
 
@@ -6,11 +6,8 @@ In the project directory, you can run:
 
 Then run the command below to start the server
 
-## `npm start` 
+###### `npm start` 
 
-
-
-
-###### Project description
+## PROJECT DESCRIPTION
 
 Sample landing page for Centum
