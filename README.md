@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 Then run the command below to start the server
 
-###### `npm start` 
+##### `npm start` 
 
 ## PROJECT DESCRIPTION
 
